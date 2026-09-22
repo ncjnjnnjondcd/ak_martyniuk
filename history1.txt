@@ -1,0 +1,110 @@
+    1  ls
+    2  uname -a
+    3  sudo apt update && sudo apt upgrade
+    4  cat /etc/apt/sources.list
+    5  sudo apt install vim
+    6  cd ~
+    7  cd Downloads
+    8  ls
+    9  cd downloads
+   10  cd /mnt/c/Users/martyniuk/Downloads
+   11  cd /mnt/c
+   12  ls
+   13  cd Users
+   14  ls
+   15  cd asus3
+   16  ls
+   17  cd Downloads
+   18  man ls
+   19  ls -la
+   20  dpkg -i brazil.deb
+   21  sudo dpkg -i brazil.deb
+   22  dpkg -i archive.deb
+   23  sudo dpkg -i archive.deb
+   24  sudo dpkg -i archive(1).deb
+   25  sudo dpkg -i la_java_3
+   26  ls
+   27  cd /
+   28  sudo -i
+   29  echo hi all
+   30  echo $PWD hi all here!
+   31  touch hi.sh
+   32  cd ~
+   33  touch hi.sh
+   34  echo $PATH
+   35  vi hi.sh
+   36  ./hi.sh
+   37  chmod +x hi.sh
+   38  chmod a+rwx hi.sh
+   39  ./hi.sh
+   40  ./hi.sh Ukraine
+   41  cp hi.sh scripts/
+   42  mkdir scripts
+   43  cp hi.sh scripts/
+   44  cp scripts Documents/
+   45  cp -r scripts Documents/
+   46  cd scripts
+   47  mv hi.sh ../
+   48  cd ..
+   49  rm scripts
+   50  rm -r scripts
+   51  cd /bin
+   52  ls -l
+   53  cd ../..
+   54  tar -cvf scripts.tar scripts
+   55  mkdir scripts
+   56  cp hi.sh scripts/
+   57  tar -cvf scripts.tar scripts
+   58  mkdir scripts
+   59  cd ~
+   60  mkdir scripts
+   61  cp hi.sh scripts/
+   62  tar -cvf scripts.tar scripts
+   63  cat scripts.tar
+   64  cat /var/log/syslog
+   65  tail -n 20 /var/log/syslog
+   66  less /var/log/syslog
+   67  cd /
+   68  find . -name "dhcp"
+   69  find . -name "*dhcp*"
+   70  find . -iname "*dhcp*" | grep -i --color dhcp
+   71  find . -iname "*etc*" | grep -i --color etc
+   72  ping google.com
+   73  ping google.com > ping.log &
+   74  cd ~
+   75  ping google.com > ping.log &
+   76  kill 4493
+   77  sudo ping google.com
+   78  vlc &
+   79  sudo apt install vlc-bin
+   80  vlc &
+   81  ls -l
+   82  cd /bin
+   83  ls
+   84  echo $PATH
+   85  set
+   86  whoami
+   87  cd /etc/
+   88  ls
+   89  cd ..
+   90  cd lib
+   91  ls
+   92  dmesg
+   93  sudo dmesg
+   94  ls /dev
+   95  sudo dmesg -c
+   96  dmesg | tail
+   97  df -h
+   98  cd /home
+   99  ls -l
+  100  lsmod
+  101  cd /proc
+  102  cat /proc/cpuinfo
+  103  echo 1 > /proc/sys/net/ipv4/ip_forward
+  104  sudo echo 1 > /proc/sys/net/ipv4/ip_forward
+  105  sudo -i
+  106  echo 1 > /proc/sys/net/ipv4/ip_forward
+  107  history
+  108  history > history1.txt
+  109  cd ~
+  110  history > history1.txt
